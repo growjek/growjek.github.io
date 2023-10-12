@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "Figtree", sans-serif;
+        background-color: #fff;
+        color: #334155;
+        line-height: 1.5;
+    }
+    footer{
+        background-color: #00002b;
+    }
+}
+
+
+@layer utilities {
+    .shadow-custom {
+            box-shadow: 0 4px 24px 0 #01003f08, 0 12px 64px 0 #01003f08;
+    }
+    .text-17{
+        @apply text-[17px];
+    }
+    .text-15{
+        @apply text-[15px];
+    }
+}
